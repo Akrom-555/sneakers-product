@@ -1,0 +1,96 @@
+.wrapper{
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow:  0 0 10px 0 black;
+}
+.img-sneacers{
+    width: 500px;
+     height: 350px;
+}
+.info-sneacer{
+   height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.firma-price{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+.price,.firma{
+    font-size: 22px;
+    font-weight: 700;
+  
+}
+.details-btn{
+    margin-top: 40px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 28px;
+    color: blue;
+    border: 1px solid  blue;
+    background-color:transparent;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
+.AddToBasket{
+    padding: 10px 30px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+hr{
+    padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.AddToBasket{
+    background-color: green;
+    color:white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.addedclick{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: red;
+}
+.addedclick:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.info-sneakers{
+    border: 1px solid #000;
+    position:absolute;
+    margin-left: 480px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 280px;
+  
+    display: flex;
+    background-color:white;
+    padding: 20px;
+    line-height: 25px;
+    box-shadow: 0 0 5px 0;
+
+}
+.info-btn{
+    color: red;
+    border: none;
+    background-color:transparent;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
